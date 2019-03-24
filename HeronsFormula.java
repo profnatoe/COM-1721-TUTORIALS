@@ -33,7 +33,8 @@ public class HeronsFormula
     public static void main(String... com1721)
     {
         takeinput();
-        System.out.printf("Half Perimeter is %.2f\nThe Area of the triangle is: %.2f",calculateHalfPerimeter(), calculateAreaOfTriangle(calculateHalfPerimeter()));
+        System.out.printf("Half Perimeter is %.2f\nThe Area of the triangle is: %.2f",calculateHalfPerimeter(), 
+                          calculateAreaOfTriangle(calculateHalfPerimeter()));
     }
 
     
